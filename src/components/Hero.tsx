@@ -1,6 +1,5 @@
 
-import { Button } from "@/components/ui/button";
-import { Apple, Play, Users, Heart, MessageCircle } from "lucide-react";
+import { Users, Heart, MessageCircle } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -45,14 +44,20 @@ const Hero = () => {
 
             {/* Download buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in">
-              <Button className="bg-black text-white hover:bg-gray-800 rounded-xl px-8 py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-2xl">
-                <Apple className="w-6 h-6 mr-3" />
-                Download for iOS
-              </Button>
-              <Button className="bg-green-600 text-white hover:bg-green-700 rounded-xl px-8 py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-2xl">
-                <Play className="w-6 h-6 mr-3" />
-                Get it on Google Play
-              </Button>
+              <button className="transition-all duration-300 hover:scale-105 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-900">
+                <img 
+                  src="/lovable-uploads/2f9fbb7a-b9d2-4b54-ade8-3d754f04e87d.png" 
+                  alt="Download on the App Store" 
+                  className="h-14 w-auto"
+                />
+              </button>
+              <button className="transition-all duration-300 hover:scale-105 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-900">
+                <img 
+                  src="/lovable-uploads/b63f8935-a055-4d99-a898-a4de453ff09c.png" 
+                  alt="Get it on Google Play" 
+                  className="h-14 w-auto"
+                />
+              </button>
             </div>
           </div>
 
