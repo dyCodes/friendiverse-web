@@ -37,7 +37,7 @@ const Features = () => {
       icon: Zap,
       title: "Lightning Fast",
       description: "Experience blazing-fast performance with our optimized mobile app.",
-      color: "from-yellow-500 to-orange-500"
+      color: "from-yellow-400 to-primary"
     }
   ];
 
@@ -47,7 +47,7 @@ const Features = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Why Choose{" "}
-            <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-yellow-400 bg-clip-text text-transparent">
               Friendiverse?
             </span>
           </h2>
@@ -60,7 +60,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="group relative bg-white/10 backdrop-blur-md rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+              className="group relative bg-white/10 backdrop-blur-md rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className={`w-16 h-16 rounded-xl bg-gradient-to-r ${feature.color} p-4 mb-6 group-hover:scale-110 transition-transform duration-300`}>
