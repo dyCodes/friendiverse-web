@@ -5,38 +5,38 @@ const Features = () => {
 	const features = [
 		{
 			icon: Users,
-			title: "Connect Instantly",
-			description: "Find and connect with friends from around the world with our advanced matching system.",
+			title: "Global Connections",
+			description: "Foster meaningful connections with people and guides from around the world, bridging cultures and building friendships.",
 			color: "from-primary to-yellow-400",
 		},
 		{
 			icon: MessageCircle,
-			title: "Real-time Chat",
-			description: "Stay connected with lightning-fast messaging and group conversations.",
-			color: "from-gray-800 to-black",
-		},
-		{
-			icon: Camera,
-			title: "Share Moments",
-			description: "Capture and share your favorite moments with stunning photo and video features.",
-			color: "from-primary to-yellow-400",
-		},
-		{
-			icon: Shield,
-			title: "Privacy First",
-			description: "Your data is protected with end-to-end encryption and advanced privacy controls.",
+			title: "Personalized Recommendations",
+			description: "Receive curated local tips and authentic insights tailored to your interests and destinations.",
 			color: "from-gray-800 to-black",
 		},
 		{
 			icon: Globe,
-			title: "Global Community",
-			description: "Join a diverse community of users from every corner of the globe.",
+			title: "Supportive Community",
+			description: "Join a vibrant, supportive community of travelers, expats, and locals ready to help you adapt and thrive.",
+			color: "from-primary to-yellow-400",
+		},
+		{
+			icon: Camera,
+			title: "Share Experiences",
+			description: "Document and share your cultural journeys, stories, and discoveries with a global audience.",
+			color: "from-gray-800 to-black",
+		},
+		{
+			icon: Zap,
+			title: "Seamless Onboarding",
+			description: "Get started quickly with an intuitive onboarding process that connects you to relevant communities and experiences from day one.",
 			color: "from-primary to-yellow-400",
 		},
 		{
 			icon: Zap,
-			title: "Lightning Fast",
-			description: "Experience blazing-fast performance with our optimized mobile app.",
+			title: "Seamless Communication",
+			description: "Enjoy fast, reliable messaging and collaboration tools for effortless interaction between locals and travelers.",
 			color: "from-gray-800 to-black",
 		},
 	];
@@ -49,7 +49,8 @@ const Features = () => {
 						Why Choose <span className="bg-gradient-to-r from-primary to-yellow-400 bg-clip-text text-transparent">Friendiverse?</span>
 					</h2>
 					<p className="text-xl text-gray-300 max-w-3xl mx-auto">
-						Discover the features that make Friendiverse the ultimate social platform for meaningful connections.
+						A platform designed to help travelers adapt quickly, connect globally, and experience authentic local culture through a supportive
+						community.
 					</p>
 				</div>
 

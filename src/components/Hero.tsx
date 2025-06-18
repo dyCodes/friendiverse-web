@@ -18,11 +18,12 @@ const Hero = () => {
 						{/* Text Content */}
 						<div className="text-center lg:text-left">
 							<div className="mb-8 animate-fade-in">
-								<h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-									Welcome to <span className="bg-gradient-to-r from-primary to-yellow-400 bg-clip-text text-transparent">Friendiverse</span>
+								<h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4 leading-tight">
+									Connecting the World with{" "}
+									<span className="bg-gradient-to-r from-primary to-yellow-400 bg-clip-text text-transparent">Friendiverse</span>
 								</h1>
-								<p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-									Connect, share, and explore with friends in a universe designed just for you. Your social experience, reimagined.
+								<p className="text-base md:text-2xl text-gray-300 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
+									Friendiverse connects people worldwide, helping travelers adapt, share cultural experiences, and find local insights and friends.
 								</p>
 							</div>
 
@@ -30,7 +31,7 @@ const Hero = () => {
 							<div className="flex flex-wrap text-sm justify-center lg:justify-start gap-2 mb-12 animate-fade-in">
 								<div className="flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-3 text-white">
 									<Users className="w-4 h-4 text-primary" />
-									<span>Connect with Friends</span>
+									<span>Global Connections</span>
 								</div>
 								<div className="flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-3 text-white">
 									<MessageCircle className="w-4 h-4 text-primary" />
@@ -38,7 +39,7 @@ const Hero = () => {
 								</div>
 								<div className="flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-4 py-3 text-white">
 									<Heart className="w-4 h-4 text-primary" />
-									<span>Express Yourself</span>
+									<span>Explore Culture</span>
 								</div>
 							</div>
 
