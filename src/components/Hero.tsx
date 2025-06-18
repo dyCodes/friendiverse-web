@@ -46,10 +46,10 @@ const Hero = () => {
 							{/* Download buttons */}
 							<div className="flex flex-row gap-4 justify-center lg:justify-start mb-8 animate-fade-in">
 								<a href={AppStoreLink} className="transition-all duration-300 hover:scale-105" target="_blank" rel="noopener noreferrer">
-									<img src="/lovable-uploads/2f9fbb7a-b9d2-4b54-ade8-3d754f04e87d.png" alt="Download on the App Store" className="h-14 w-auto" />
+									<img src="/uploads/2f9fbb7a-b9d2-4b54-ade8-3d754f04e87d.png" alt="Download on the App Store" className="h-14 w-auto" />
 								</a>
 								<a href={PlayStoreLink} className="transition-all duration-300 hover:scale-105" target="_blank" rel="noopener noreferrer">
-									<img src="/lovable-uploads/b63f8935-a055-4d99-a898-a4de453ff09c.png" alt="Get it on Google Play" className="h-14 w-auto" />
+									<img src="/uploads/b63f8935-a055-4d99-a898-a4de453ff09c.png" alt="Get it on Google Play" className="h-14 w-auto" />
 								</a>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ const Hero = () => {
 						{/* App Preview */}
 						<div className="relative mx-auto max-w-xs lg:max-w-sm animate-fade-in">
 							<img
-								src="/lovable-uploads/6dda6f8d-f53f-407d-b91f-25bfb8e46d9b.png"
+								src="/uploads/6dda6f8d-f53f-407d-b91f-25bfb8e46d9b.png"
 								alt="Friendiverse App Preview"
 								className="w-full h-auto rounded-[2rem] object-cover"
 							/>
