@@ -31,12 +31,21 @@ const Footer = () => {
 					</div>
 
 					{/* Links */}
-					<div className="flex flex-wrap justify-center gap-6 text-sm">
-						<a href="#" className="text-gray-200 hover:text-white transition-colors">
+					<div className="flex flex-wrap justify-center gap-5 text-sm">
+						<a href="/" className="text-gray-200 hover:text-white transition-colors">
+							Home
+						</a>
+
+						<a href="/support" className="text-gray-200 hover:text-white transition-colors">
+							Support
+						</a>
+
+						<a href="/terms-of-use" className="text-gray-200 hover:text-white transition-colors">
 							Terms of Use
 						</a>
-						<a href="#" className="text-gray-200 hover:text-white transition-colors">
-							Support
+
+						<a href="/privacy-policy" className="text-gray-200 hover:text-white transition-colors">
+							Privacy Policy
 						</a>
 					</div>
 				</div>
