@@ -2,8 +2,8 @@ import { Users, Heart, MessageCircle } from "lucide-react";
 import Container from "./custom/container";
 
 const Hero = () => {
-	const PlayStoreLink = "https://play.google.com/store/apps/details?id=com.friendiverse	";
-	const AppStoreLink = "https://apps.apple.com/app/id6469883222";
+	const PlayStoreLink = "https://play.google.com/store/apps/details?id=com.friendiverse&pcampaignid=web_share";
+	const AppStoreLink = "https://apps.apple.com/us/app/friendiverse/id6746367932";
 
 	return (
 		<section className="relative min-h-screen flex items-center justify-center py-20 overflow-hidden bg-gradient-to-br from-gray-900 via-black to-gray-800">
